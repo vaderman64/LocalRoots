@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LocalRoots Digital — Web & Growth for Small Business</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:wght@300;400;500&family=Caveat:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ── NAV ── -->
+<nav>
+  <div class="nav-logo">Local<span>Roots</span> Digital</div>
+  <ul class="nav-links">
+    <li><a href="#services">What We Do</a></li>
+    <li><a href="#tech">Technology</a></li>
+    <li><a href="#why">Why Us</a></li>
+    <li><a href="#contact" class="nav-cta">Get Started</a></li>
+  </ul>
+</nav>
+
+<!-- ── HERO ── -->
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-tag">Built for neighborhood businesses</div>
+
+    <h1>
+      <!--
+        Line 1: "Your [rotating word]"
+        .hero-headline-line1 clips the vertical slide so the animation
+        stays contained to this line and doesn't bleed into line 2.
+      -->
+      <span class="hero-headline-line1">Your <span class="word-rotator" id="wordRotator">
+        <!-- .sizer keeps the container as wide as the longest word -->
+        <span class="sizer">steakhouse</span>
+        <!-- word spans are injected by main.js -->
+      </span></span>
+      deserves to be<br>
+      <span class="italic">found.</span>
+    </h1>
+
+    <p class="hero-sub">
+      We help small businesses that have never had a website — or gave up on a bad one —
+      finally show up online. Real technology. Real results. No agency markup.
+    </p>
+    <div class="hero-actions">
+      <a href="#contact" class="btn-primary">Let's talk</a>
+      <a href="#services" class="btn-secondary">See what's possible</a>
+    </div>
+  </div>
+
+  <!-- Floating cards -->
+  <div class="hero-visual">
+    <div class="hero-card card-seo">
+      <div class="seo-label">Google Ranking</div>
+      <div class="seo-rank">#1</div>
+      <div class="seo-desc" id="seoDesc">"best restaurant near me"</div>
+      <div class="seo-bar"><div class="seo-fill"></div></div>
+    </div>
+    <div class="hero-card card-main">
+      <div class="restaurant-name">Marco's Trattoria</div>
+      <div class="stars">★★★★★ 4.9 · 312 reviews</div>
+      <div class="map-placeholder">
+        <div class="map-pin">📍</div>
+      </div>
+      <div class="stat-row">
+        <div class="mini-stat"><div class="num">3.2k</div><div class="lbl">Monthly Views</div></div>
+        <div class="mini-stat"><div class="num">$12k</div><div class="lbl">Online Orders</div></div>
+        <div class="mini-stat"><div class="num">94%</div><div class="lbl">Repeat Customers</div></div>
+      </div>
+    </div>
+    <div class="hero-card card-payment">
+      <div class="pay-label">Accepts Online Payment</div>
+      <div class="pay-icons">
+        <div class="pay-chip">💳 Square</div>
+        <div class="pay-chip">Stripe</div>
+        <div class="pay-chip">Apple Pay</div>
+        <div class="pay-chip">Venmo</div>
+      </div>
+    </div>
+    <div class="card-caveat">built in one week!</div>
+  </div>
+</section>
+
+<!-- ── MARQUEE ── -->
+<div class="marquee-section">
+  <div class="marquee-track">
+    <div class="marquee-item"><span>🔍</span> Google Search</div>
+    <div class="marquee-item"><span>📍</span> Google Maps</div>
+    <div class="marquee-item"><span>💳</span> Square & Stripe</div>
+    <div class="marquee-item"><span>🍽️</span> OpenTable</div>
+    <div class="marquee-item"><span>📈</span> Google Ads</div>
+    <div class="marquee-item"><span>🔗</span> SEO Optimization</div>
+    <div class="marquee-item"><span>🛒</span> WooCommerce</div>
+    <div class="marquee-item"><span>📧</span> Email Marketing</div>
+    <!-- duplicate for seamless loop -->
+    <div class="marquee-item"><span>🔍</span> Google Search</div>
+    <div class="marquee-item"><span>📍</span> Google Maps</div>
+    <div class="marquee-item"><span>💳</span> Square & Stripe</div>
+    <div class="marquee-item"><span>🍽️</span> OpenTable</div>
+    <div class="marquee-item"><span>📈</span> Google Ads</div>
+    <div class="marquee-item"><span>🔗</span> SEO Optimization</div>
+    <div class="marquee-item"><span>🛒</span> WooCommerce</div>
+    <div class="marquee-item"><span>📧</span> Email Marketing</div>
+  </div>
+</div>
+
+<!-- ── PROBLEM ── -->
+<section class="problem-section" id="why-it-matters">
+  <div class="reveal">
+    <div class="section-eyebrow">The problem we solve</div>
+    <h2 class="section-title">Great businesses<br><em>invisible</em> to Google.</h2>
+  </div>
+  <div class="problem-grid reveal">
+    <div class="problem-card">
+      <div class="problem-icon">🗺️</div>
+      <h3>You're not on the map — literally</h3>
+      <p>97% of people discover local businesses online first. If you're not on Google Maps with reviews, photos, and hours, those customers are walking into your competitor.</p>
+    </div>
+    <div class="problem-card dark">
+      <div class="problem-icon">😩</div>
+      <h3>Shopify templates aren't a website</h3>
+      <p>Changing a few words on a generic template doesn't tell your story. It doesn't help Google understand what you do or where you are. It won't bring in new customers.</p>
+    </div>
+    <div class="problem-card accent">
+      <div class="problem-icon">💸</div>
+      <h3>Design firms charge thousands with no guarantee</h3>
+      <p>Traditional agencies quote $5,000–$20,000 for a website. Then you never hear from them again. We work alongside you, affordably, with transparent pricing.</p>
+    </div>
+    <div class="problem-card wide dark">
+      <div class="quote-mark">"</div>
+      <p>We've run a full house every Friday for 22 years — but when our kids searched for us on Google, nothing came up. We didn't even know that was a problem.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ── SERVICES ── -->
+<section class="services-section" id="services">
+  <div class="services-inner">
+    <div class="services-header reveal">
+      <div>
+        <div class="section-eyebrow">What we build</div>
+        <h2 class="section-title">Technology that opens<br><em>doors you didn't know existed</em></h2>
+      </div>
+      <p>We don't just build websites. We connect you to a full ecosystem of tools that bring customers in, keep them coming back, and make your life easier.</p>
+    </div>
+    <div class="services-grid reveal">
+      <div class="service-tile">
+        <div class="tile-num">01</div>
+        <h3>SEO — Being Found on Google</h3>
+        <p>SEO (Search Engine Optimization) determines whether you show up when someone searches "best tacos near me." We build this into everything from day one.</p>
+        <div class="tech-tags">
+          <span class="tech-tag">Google Search Console</span>
+          <span class="tech-tag">Schema Markup</span>
+          <span class="tech-tag">Local SEO</span>
+          <span class="tech-tag">Keyword Research</span>
+        </div>
+      </div>
+      <div class="service-tile highlight">
+        <div class="tile-num">02</div>
+        <h3>Google Maps & Business Profile</h3>
+        <p>Get your business on the map — with photos, hours, reviews, and directions. When someone searches nearby, you show up. This alone can transform walk-in traffic.</p>
+        <div class="tech-tags">
+          <span class="tech-tag">Google Business Profile</span>
+          <span class="tech-tag">Google Maps API</span>
+          <span class="tech-tag">Review Management</span>
+        </div>
+      </div>
+      <div class="service-tile">
+        <div class="tile-num">03</div>
+        <h3>Online Reservations & Ordering</h3>
+        <p>Let customers book a table or order online without playing phone tag. We integrate tools customers already trust and know how to use.</p>
+        <div class="tech-tags">
+          <span class="tech-tag">OpenTable</span>
+          <span class="tech-tag">Resy</span>
+          <span class="tech-tag">DoorDash Integration</span>
+        </div>
+      </div>
+      <div class="service-tile">
+        <div class="tile-num">04</div>
+        <h3>Payment Processing</h3>
+        <p>Accept payments online, in-person, or on your phone. Sell products, accept event deposits, or run a full online store — set up properly from day one.</p>
+        <div class="tech-tags">
+          <span class="tech-tag">Square</span>
+          <span class="tech-tag">Stripe</span>
+          <span class="tech-tag">Apple Pay / Google Pay</span>
+          <span class="tech-tag">WooCommerce</span>
+        </div>
+      </div>
+      <div class="service-tile">
+        <div class="tile-num">05</div>
+        <h3>Targeted Google Ads</h3>
+        <p>Show your ad only to people searching for exactly what you offer, in exactly your neighborhood. Set a budget, see real results, adjust in real time.</p>
+        <div class="tech-tags">
+          <span class="tech-tag">Google Ads</span>
+          <span class="tech-tag">Geo-targeting</span>
+          <span class="tech-tag">Retargeting</span>
+          <span class="tech-tag">Analytics</span>
+        </div>
+      </div>
+      <div class="service-tile">
+        <div class="tile-num">06</div>
+        <h3>Full Website Design</h3>
+        <p>A fast, beautiful, mobile-friendly site that tells your story. Custom design — not a template — built with the same tools big brands use, for a fraction of the cost.</p>
+        <div class="tech-tags">
+          <span class="tech-tag">WordPress</span>
+          <span class="tech-tag">Elementor</span>
+          <span class="tech-tag">WPForms</span>
+          <span class="tech-tag">SSL / Security</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── TECH LOGOS ── -->
+<section class="tech-section" id="tech">
+  <div class="reveal">
+    <div class="section-eyebrow">Our technology partners</div>
+    <h2 class="section-title">Tools you've heard of.<br><em>Set up by people who know them.</em></h2>
+    <p>We don't build everything from scratch — we connect you to the best platforms in the world, configured properly and tailored to your business.</p>
+  </div>
+  <div class="tech-logos-grid reveal">
+    <div class="tech-logo-card"><div class="logo-icon">🔍</div><div class="logo-name">Google</div><div class="logo-desc">Search, Maps, Ads, Analytics, Business Profile, and more.</div><div class="logo-cat">Discovery & Advertising</div></div>
+    <div class="tech-logo-card"><div class="logo-icon">🍽️</div><div class="logo-name">OpenTable</div><div class="logo-desc">Industry-standard reservations, trusted by millions of diners.</div><div class="logo-cat">Reservations</div></div>
+    <div class="tech-logo-card"><div class="logo-icon">⬛</div><div class="logo-name">Square</div><div class="logo-desc">Point-of-sale, online checkout, invoicing, payroll — all in one.</div><div class="logo-cat">Payments</div></div>
+    <div class="tech-logo-card"><div class="logo-icon">⚡</div><div class="logo-name">Stripe</div><div class="logo-desc">Secure online payments for e-commerce, subscriptions, and events.</div><div class="logo-cat">Payments</div></div>
+    <div class="tech-logo-card"><div class="logo-icon">🔵</div><div class="logo-name">WordPress</div><div class="logo-desc">Powers 43% of the web. Flexible, fast, and fully yours to own.</div><div class="logo-cat">Website Platform</div></div>
+    <div class="tech-logo-card"><div class="logo-icon">🛒</div><div class="logo-name">WooCommerce</div><div class="logo-desc">Add a full online store to your site — merch, gift cards, anything.</div><div class="logo-cat">E-Commerce</div></div>
+    <div class="tech-logo-card"><div class="logo-icon">📧</div><div class="logo-name">Mailchimp</div><div class="logo-desc">Build an email list and send promotions to your loyal customers.</div><div class="logo-cat">Email Marketing</div></div>
+    <div class="tech-logo-card"><div class="logo-icon">📊</div><div class="logo-name">Yoast SEO</div><div class="logo-desc">Keeps your site search-optimized as it grows and changes.</div><div class="logo-cat">SEO Plugin</div></div>
+  </div>
+</section>
+
+<!-- ── WHY US ── -->
+<section class="why-section" id="why">
+  <div class="why-inner">
+    <div class="reveal">
+      <div class="section-eyebrow">Why choose us</div>
+      <h2 class="section-title">We're not an agency.<br><em>We're your neighbors.</em></h2>
+    </div>
+    <div class="why-grid">
+      <div class="why-left reveal">
+        <div class="why-item">
+          <div class="why-item-icon">🤝</div>
+          <div>
+            <h4>Real people, not a ticketing system</h4>
+            <p>You'll talk to the same student who built your site. We answer calls, come to your location, and stick around until you're satisfied — no hand-offs to account managers.</p>
+          </div>
+        </div>
+        <div class="why-item">
+          <div class="why-item-icon">💰</div>
+          <div>
+            <h4>Honest, affordable pricing</h4>
+            <p>Because we're building our portfolio, not padding a firm's profit margin, we can offer pricing that actually makes sense for a small business owner.</p>
+          </div>
+        </div>
+        <div class="why-item">
+          <div class="why-item-icon">🚀</div>
+          <div>
+            <h4>Current technology, not last decade's</h4>
+            <p>We stay up-to-date. From AI-powered chatbots to Google's latest ranking factors, we bring what's actually working right now.</p>
+          </div>
+        </div>
+        <div class="why-item">
+          <div class="why-item-icon">🎓</div>
+          <div>
+            <h4>Students who care about results</h4>
+            <p>We're invested in your success because your results are our portfolio. When your business grows because of our work, that's the best proof we could have.</p>
+          </div>
+        </div>
+      </div>
+      <div class="why-right reveal">
+        <blockquote>
+          "You can't want what you don't <span class="highlight">know exists.</span> We're here to show you what's possible."
+        </blockquote>
+        <div class="attribution">— LocalRoots Digital, founded by students who believe local business is worth fighting for</div>
+        <div class="pricing-preview">
+          <div class="price-pill"><div class="amount">$0</div><div class="label">Initial Consult</div></div>
+          <div class="price-pill"><div class="amount">Low</div><div class="label">Upfront Cost</div></div>
+          <div class="price-pill"><div class="amount">∞</div><div class="label">Ongoing Support</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── BEFORE / AFTER ── -->
+<section class="compare-section" id="results">
+  <div class="reveal">
+    <div class="section-eyebrow">Before & After</div>
+    <h2 class="section-title">What "being found"<br><em>actually looks like.</em></h2>
+  </div>
+  <div class="compare-grid reveal">
+    <div class="compare-card before">
+      <div class="compare-header">⚠️ &nbsp;Before LocalRoots</div>
+      <div class="compare-body">
+        <div class="fake-search">🔍 &nbsp;"Marco's Trattoria downtown"</div>
+        <div class="no-result">
+          <div class="nr-icon">🫥</div>
+          <p><strong>No results found.</strong><br>No Google listing, no website, no reviews.</p>
+        </div>
+      </div>
+    </div>
+    <div class="compare-card after">
+      <div class="compare-header">✅ &nbsp;After LocalRoots</div>
+      <div class="compare-body">
+        <div class="fake-search">🔍 &nbsp;"Italian restaurant near me"</div>
+        <div class="rank-badge">📍 #1 Local Result</div>
+        <div class="search-result">
+          <div class="sr-title">Marco's Trattoria — Authentic Italian Since 1998</div>
+          <div class="sr-url">marcostrat.com</div>
+          <div class="sr-snippet">Award-winning pasta, wood-fired pizza, and private dining downtown. Open for lunch & dinner. Reserve online. ★★★★★ 312 reviews.</div>
+        </div>
+        <div class="pay-icons" style="margin-top:16px;">
+          <div class="pay-chip" style="background:#f0f8f0;border:1px solid #ccc;">📅 Book on OpenTable</div>
+          <div class="pay-chip" style="background:#f0f8f0;border:1px solid #ccc;">🛒 Order Online</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CTA ── -->
+<section class="cta-section" id="contact">
+  <h2>Ready to get<br><em>on the map?</em></h2>
+  <p>We'll come to you, learn your story, and show you exactly what's possible — no commitment, no pressure, no jargon.</p>
+  <div class="cta-buttons">
+    <a href="mailto:hello@localrootsdigital.com" class="btn-white">📬 &nbsp;Email Us</a>
+    <a href="tel:+15555555555" class="btn-outline-white">📞 &nbsp;Call or Text</a>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div>
+    <div class="footer-brand">Local<span>Roots</span> Digital</div>
+    <div class="footer-tagline">Web design & digital growth for small businesses.</div>
+  </div>
+  <div class="footer-links">
+    <a href="#services">Services</a>
+    <a href="#tech">Technology</a>
+    <a href="#why">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="footer-note">© 2025 LocalRoots Digital · Built by students, for local business</div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
